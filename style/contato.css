@@ -1,0 +1,68 @@
+header, html, #app {
+    margin: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+  }
+  #app {
+    overflow: hidden;
+    touch-action: pan-up;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+  }
+  #app h1 {
+    --fontSize: 60px;
+    --lineHeight: 60px;
+    width: auto;
+    height: 100%;
+    line-height: 100px;
+    margin:10px;
+    font-size:50pt;
+  }
+  #app a {
+    margin-top: 10px;
+   }
+
+body{
+    background-color: rgb(71, 73, 69);
+}
+
+.contato {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: bisque;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
